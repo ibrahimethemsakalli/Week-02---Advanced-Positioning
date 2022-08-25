@@ -1,0 +1,133 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+section {
+  border: 1px solid black;
+  margin: 100px 400px 100px 400px;
+  background-color: rgb(220, 185, 255);
+}
+.head {
+  border: 1px solid black;
+  margin: 10%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  position: relative;
+  background-color: rgb(244, 215, 206);
+}
+
+/*iused list-style-type: none to delete the marker charecter*/
+.eyes1 {
+  list-style-type: none;
+  border-top: 10px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 150px;
+}
+
+.pupil {
+  list-style-type: none;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  left: 175px;
+  top: 215px;
+}
+
+.eyes2 {
+  list-style-type: none;
+  border-top: 10px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 310px;
+  margin-top: 150px;
+}
+
+.pupil1 {
+  list-style-type: none;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  right: 212px;
+  top: 215px;
+}
+
+.nose {
+  list-style-type: none;
+  border-radius: 50px 50px 50px 50px / 100px 100px 100px 100px;
+  width: 0px;
+  height: 0px;
+  left: 250px;
+  bottom: 230px;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid rgb(195, 167, 162);
+  position: absolute;
+}
+
+/*I used to border-bottom 15px for sahdowing the mounth*/
+.mouth {
+  list-style-type: none;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  border-radius: 50%;
+  top: 450px;
+  left: 200px;
+
+  border-top: transparent;
+  border-left: rgb(195, 167, 162) solid;
+  border-right: rgb(195, 167, 162) solid;
+  border-bottom: rgb(195, 167, 162) solid 15px;
+}
+
+.triangle {
+  width: 165px;
+  height: 60px;
+  margin: auto;
+  background: transparent;
+  position: relative;
+  bottom: 90px;
+  right: 50px;
+  border: solid;
+  border: 2px solid rgb(166, 7, 9);
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 80px solid rgb(166, 7, 9);
+  position: relative;
+  left: 85px;
+  bottom: 60px;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-right: 85px solid rgb(166, 7, 9);
+  position: relative;
+}
